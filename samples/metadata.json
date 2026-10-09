@@ -1,0 +1,292 @@
+{
+  "dataset": [
+    {
+      "id": "ds_sample1",
+      "sid": "z008-june-15-22-dslr",
+      "task": "Preparing a DSLR Camera for Use",
+      "recipe": [
+        {
+          "step": "The user disassembles the lens from the DSLR.",
+          "start": 10.3,
+          "end": 23.0
+        },
+        {
+          "step": "The user assembles the upper Lens.",
+          "start": 29.2,
+          "end": 41.1
+        },
+        {
+          "step": "The user disassembles the Lens Cover.",
+          "start": 46.9,
+          "end": 50.9
+        },
+        {
+          "step": "The user assembles the Lens Cover",
+          "start": 54.1,
+          "end": 58.7
+        },
+        {
+          "step": "The user turns on the DSLR camera.",
+          "start": 62.2,
+          "end": 66.0
+        },
+        {
+          "step": "The user turns off the DSLR camera.",
+          "start": 71.4,
+          "end": 72.8
+        },
+        {
+          "step": "The user exchanges the battery of the DSLR.",
+          "start": 78.1,
+          "end": 97.2
+        },
+        {
+          "step": "The user exchanges the SD Card.",
+          "start": 101.5,
+          "end": 127.0
+        }
+      ]
+    },
+    {
+      "id": "ds_sample2",
+      "sid": "R099-1Aug-Nespresso",
+      "task": "Brewing a Cup of Coffee with a Nespresso Machine",
+      "recipe": [
+        {
+          "step": "The user fills the container with water.",
+          "start": 4.2,
+          "end": 14.0
+        },
+        {
+          "step": "The user brews a cup of coffee.",
+          "start": 18.7,
+          "end": 90.2
+        },
+        {
+          "step": "The user empties the container of capsules.",
+          "start": 91.9,
+          "end": 117.2
+        }
+      ]
+    },
+    {
+      "id": "ds_sample3",
+      "sid": "z150-aug-22-22-gladom_assemble",
+      "task": "Assembling a Tray Table with Legs and Circular Base",
+      "recipe": [
+        {
+          "step": "The user assembles the legs of the table.",
+          "start": 5.2,
+          "end": 28.1
+        },
+        {
+          "step": "The user assembles the top screw into the legs.",
+          "start": 28.2,
+          "end": 66.0
+        },
+        {
+          "step": "The user assembles the bottom screw into the legs.",
+          "start": 66.2,
+          "end": 83.8
+        },
+        {
+          "step": "The user assembles the screw into the circle and the legs.",
+          "start": 84.3,
+          "end": 138.0
+        },
+        {
+          "step": "The user assembles the screw into the circle and the legs.",
+          "start": 138.1,
+          "end": 160.8
+        },
+        {
+          "step": "The user mounts the tray at the base of the table.",
+          "start": 161.3,
+          "end": 173.6
+        }
+      ]
+    },
+    {
+      "id": "ds_sample4",
+      "sid": "z025-june-21-22-printer_big",
+      "task": "Setting Up and Refilling a Printer",
+      "recipe": [
+        {
+          "step": "The user turns on the printer.",
+          "start": 14.2,
+          "end": 21.2
+        },
+        {
+          "step": "The user turns off the printer.",
+          "start": 23.3,
+          "end": 30.2
+        },
+        {
+          "step": "The user loads the paper stack in the tray of the printer.",
+          "start": 36.4,
+          "end": 56.0
+        },
+        {
+          "step": "The user exchanges the black ink cartridge of the printer.",
+          "start": 59.8,
+          "end": 104.1
+        },
+        {
+          "step": "The user exchanges the blue ink cartridge of the printer.",
+          "start": 104.2,
+          "end": 124.0
+        },
+        {
+          "step": "The user exchanges the magenta ink cartridge of the printer.",
+          "start": 124.1,
+          "end": 143.9
+        },
+        {
+          "step": "The user exchanges the yellow ink cartridge of the printer.",
+          "start": 144.0,
+          "end": 160.0
+        },
+        {
+          "step": "The user closes the cartridge gate.",
+          "start": 160.0,
+          "end": 164.1
+        }
+      ]
+    }
+  ],
+  "comparison": [
+    {
+      "id": "cmp_sample1",
+      "sid": "z208-sep-27-22-dslr",
+      "task": "Preparing a DSLR Camera for Use",
+      "recipe": [
+        {
+          "step": "The user detaches a DSLR lens.",
+          "start": 3.3,
+          "end": 16.3
+        },
+        {
+          "step": "The user attaches a DSLR lens.",
+          "start": 18.3,
+          "end": 30.3
+        },
+        {
+          "step": "The user detaches the lens cover.",
+          "start": 32.3,
+          "end": 35.4
+        },
+        {
+          "step": "The user attaches the lens cover.",
+          "start": 37.3,
+          "end": 39.3
+        },
+        {
+          "step": "The user turns on their DSLR.",
+          "start": 47.3,
+          "end": 61.3
+        },
+        {
+          "step": "The user turns off their DSLR.",
+          "start": 63.3,
+          "end": 65.3
+        },
+        {
+          "step": "The user exchanges a battery.",
+          "start": 69.3,
+          "end": 69.62
+        }
+      ],
+      "window": {
+        "start_sec": 15.8,
+        "end_sec": 85.42,
+        "duration_sec": 69.62
+      }
+    },
+    {
+      "id": "cmp_sample2",
+      "sid": "z132-aug-12-22-printer_big",
+      "task": "Initial Setup and Configuration of Large Printer",
+      "recipe": [
+        {
+          "step": "The user inserts a paper stack into the paper tray.",
+          "start": 4.7,
+          "end": 24.4
+        },
+        {
+          "step": "The user exchanges the black ink cartridge.",
+          "start": 26.4,
+          "end": 66.3
+        }
+      ],
+      "window": {
+        "start_sec": 41.7,
+        "end_sec": 111.0,
+        "duration_sec": 69.3
+      }
+    },
+    {
+      "id": "cmp_sample3",
+      "sid": "R095-28July-ATV",
+      "task": "Reassembling and Testing Motorcycle Gear System",
+      "recipe": [
+        {
+          "step": "The user puts the lever into park.",
+          "start": 8.4,
+          "end": 13.0
+        },
+        {
+          "step": "The user assembles the shift arm into the mount peg.",
+          "start": 13.1,
+          "end": 24.1
+        },
+        {
+          "step": "The user grabs a washer and a bolt.",
+          "start": 28.0,
+          "end": 53.9
+        },
+        {
+          "step": "The user screws the bolt into the mount peg.",
+          "start": 54.0,
+          "end": 68.58
+        }
+      ],
+      "window": {
+        "start_sec": 0.0,
+        "end_sec": 68.58,
+        "duration_sec": 68.58
+      }
+    },
+    {
+      "id": "cmp_sample4",
+      "sid": "z179-sep-06-22-gopro",
+      "task": "Preparing and Setting Up a GoPro for Use",
+      "recipe": [
+        {
+          "step": "The user exchanges the GoPro's battery.",
+          "start": 0.0,
+          "end": 5.52
+        },
+        {
+          "step": "The user exchanges their GoPro's SD card.",
+          "start": 11.52,
+          "end": 40.52
+        },
+        {
+          "step": "The user turns on the GoPro.",
+          "start": 43.52,
+          "end": 50.52
+        },
+        {
+          "step": "The user turns off the GoPro.",
+          "start": 55.52,
+          "end": 70.0
+        }
+      ],
+      "window": {
+        "start_sec": 41.58,
+        "end_sec": 111.58,
+        "duration_sec": 70.0
+      }
+    }
+  ]
+}
